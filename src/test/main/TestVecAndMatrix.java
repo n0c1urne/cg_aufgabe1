@@ -41,7 +41,7 @@ public class TestVecAndMatrix {
     public void testLength() {
         assertEquals(
                 Math.sqrt(4+9),
-                Vec2.of(2,3).length(),
+                Vec2.of(4,9).length(),
                 EPSILON);
     }
 
